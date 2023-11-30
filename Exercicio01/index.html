@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+    <title>Exercicio01</title>
+</head>
+<body>
+
+    <form id="formulario">
+        <input type="texto" id="inputTexto" placeholder="Entre com uma tarefa" required>
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="listaTarefa"></ul>
+
+    <script>
+        var Tarefa = document.getElementById('listaTarefa');
+            
+        document.getElementById('formulario').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var texto = document.getElementById('inputTexto').value;
+            var listItem = document.createElement('ul');
+            listItem.textContent = texto;
+            Tarefa.appendChild(listItem);
+            
+        });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Estilos para o formulário */
+#formulario {
+    margin-bottom: 20px;
+}
+
+/* Estilos para o campo de entrada de texto */
+#inputTexto {
+    padding: 5px;
+    width: 200px;
+}
+
+/* Estilos para o botão Adicionar */
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50; /* Cor verde */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para a lista de tarefas */
+#listaTarefa {
+    list-style-type: none; /* Remover os marcadores padrão da lista */
+    padding: 0;
+}
+
+/* Estilos para cada item da lista de tarefas */
+#listaTarefa li {
+    margin-bottom: 5px;
+    background-color: #f2f2f2; /* Cor de fundo cinza claro */
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Estilos para destacar o item da lista quando passar o mouse sobre ele */
+#listaTarefa li:hover {
+    background-color: #ddd;
+}
